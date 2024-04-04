@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className={styles.title}>ralphiz.dev</h1>
 
         <p className={styles.description}>
-          <p>Links to where you can find me::</p>
+          <p>Links to where you can find me:</p>
           <div>
             <ul className={styles.social}>
               <li className={styles.social__li}>
