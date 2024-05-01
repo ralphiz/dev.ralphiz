@@ -10,6 +10,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
+        <a
+          href="https://www.instagram.com/lulu_naps/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img src='/lulu.jpg' alt='our doggo' className={styles.image__lulu} />
+        </a>
+
         <h1 className={styles.title}>ralphiz.dev</h1>
 
         <p className={styles.description}>

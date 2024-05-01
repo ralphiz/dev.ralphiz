@@ -130,3 +130,8 @@
 .social__li {
   display: flex;
 }
+
+.image__lulu {
+  width: 24em;
+  margin-bottom: 2em;
+}
