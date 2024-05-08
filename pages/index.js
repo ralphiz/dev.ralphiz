@@ -1,3 +1,5 @@
+"use client"
+
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -19,9 +21,11 @@ export default function Home() {
           <img src='/lulu.jpg' alt='our doggo' className={styles.image__lulu} />
         </a>
 
-        <h1 className={styles.title}>ralphiz.dev</h1>
+        <h1 className={styles.title}>ralphiz.
+          <a className={styles.link} href="https://blog.ralphiz.dev">dev</a>
+        </h1>
 
-        <p className={styles.description}>
+        <div className={styles.description}>
           <p>Links to where you can find me:</p>
           <div>
             <ul className={styles.social}>
@@ -63,7 +67,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-        </p>
+        </div>
       </main>
     </div>
   );

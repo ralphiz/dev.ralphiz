@@ -36,7 +36,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #59CA4E;
   text-decoration: none;
 }
 
@@ -133,5 +133,5 @@
 
 .image__lulu {
   width: 24em;
-  margin-bottom: 2em;
+  margin: 1em;
 }
